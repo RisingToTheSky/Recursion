@@ -18,7 +18,6 @@ function fibs(n) {
 console.log(fibs(8));
 
 function fibsRec(n, array = [0, 1]) {
-  console.log("recursion")
   if (n === 0) return array.splice(0, 1);
   if (n <= 2) return array;
 
